@@ -1,7 +1,11 @@
+import Body from "./components/Body";
+import Head from "./components/Head";
+
 export default function App() {
   return (
-    <h1 >
-      Hello world!
-    </h1>
+    <div>
+      <Head/>
+      <Body/>
+      </div>
   )
 }
